@@ -1,0 +1,41 @@
+0 |abc| <- line
+
+1 |   | <- buffer = malloc(3)
+1 |def| <- read(buffer)
+
+2 |      | <- newline = malloc(3 + 3)
+2 |abc   | <- strjoin
+2 |abcdef|  | strjoin
+
+
+
+
+
+0 |abc| <- line
+1 |0xline|
+
+2 |   | <- buffer = malloc(3)
+2 |def| <- read(buffer)
+3 |0xbuffer|
+
+4 |      | <- newline = malloc(3 + 3)
+4 |abc   | <- strjoin
+4 |abcdef|  | strjoin
+
+
+
+
+
+0 |abc| <- line
+
+1 |      | <- newline = malloc(3 + 3)
+1 |abc   | <- strcpy(newline, line)
+1 |abcdef| + 3 <- read(buffer)
+
+2 |          | <- newline = malloc(6 + 3)
+2 |abcdef    | <- strcpy(newline, line)
+2 |abcdef\nhi| + 6 <- read(buffer)
+
+pos = strchr(newline, \n)
+
+2 |hi        | + 6 <- read(buffer)
