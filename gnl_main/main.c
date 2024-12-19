@@ -6,11 +6,11 @@
 /*   By: ifounas <ifounas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 15:38:00 by ifounas           #+#    #+#             */
-/*   Updated: 2024/12/19 12:29:27 by ifounas          ###   ########.fr       */
+/*   Updated: 2024/12/19 12:40:30 by ifounas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../get_next_line.h"
+#include "../../get_next_line.h"
 #include <stdio.h>
 #include <fcntl.h>
 
