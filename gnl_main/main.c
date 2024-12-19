@@ -6,7 +6,7 @@
 /*   By: ifounas <ifounas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 15:38:00 by ifounas           #+#    #+#             */
-/*   Updated: 2024/12/19 13:03:11 by ifounas          ###   ########.fr       */
+/*   Updated: 2024/12/19 13:12:38 by ifounas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 #include <stdio.h>
 #include <fcntl.h>
 
+// gcl https://github.com/Tripouille/gnlTester.git
 // clear; cc -Wall -Wextra -Wall -g -D BUFFER_SIZE=10 main.c ../../get_next_line.c ../../get_next_line_utils.c && valgrind ./a.out ;
 int	main(void)
 {
