@@ -6,7 +6,7 @@
 /*   By: ifounas <ifounas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 15:38:00 by ifounas           #+#    #+#             */
-/*   Updated: 2024/12/19 12:40:30 by ifounas          ###   ########.fr       */
+/*   Updated: 2024/12/19 12:55:27 by ifounas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	main(void)
 
 	fd = open("test.txt", O_RDONLY);
 	s = get_next_line(fd);
-	while (!s)
+	while (s)
 	{
 		printf("%s", s);
 		free(s);
