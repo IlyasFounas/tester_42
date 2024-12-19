@@ -6,11 +6,11 @@
 /*   By: ifounas <ifounas@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 15:38:00 by ifounas           #+#    #+#             */
-/*   Updated: 2024/12/16 15:53:48 by ifounas          ###   ########.fr       */
+/*   Updated: 2024/12/19 12:29:06 by ifounas          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "ft_printf.h"
+#include "../ft_printf.h"
 #include <fcntl.h>
 # include <stdio.h>
 // cc -Wall -Wextra -Werror main.c ft_printf.c ft_printf_utils.c  ; ./a.out

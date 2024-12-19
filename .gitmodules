@@ -1,0 +1,3 @@
+[submodule "gnlTester_Tripouille"]
+	path = gnlTester_Tripouille
+	url = git@github.com:IlyasFounas/gnlTester.git
