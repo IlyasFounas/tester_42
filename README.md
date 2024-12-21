@@ -1,1 +1,1 @@
-It's my personnal tester/main.c when I'm doing correction.
+It's my personnal main.c (tests) for get_next_line & ft_printf when I'm doing correction.
